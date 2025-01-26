@@ -1,0 +1,62 @@
+<Window xmlns:avalonia="https://github.com/avaloniaui"
+        xmlns="https://github.com/avaloniaui"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="wRoM.MainWindow"
+        Title="Drag and Drop Exemple"
+        ExtendClientAreaToDecorationsHint="True"
+        ExtendClientAreaChromeHints="NoChrome"
+        ExtendClientAreaTitleBarHeightHint="0"
+        WindowStartupLocation="CenterScreen"
+        Width="1000"
+        Height="600">
+
+     <StackPanel Margin="10">
+        <!-- Le texte est centré dans la zone -->
+        <TextBlock Name="IntroTextBlock"
+                    Text="--"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontSize="36"
+                    TextWrapping="Wrap"
+                    TextAlignment="Center"
+                    Foreground="#008865"
+                    Opacity="0"
+                    Margin="10,50,10,0"/>
+
+        <!-- Zone de dépôt -->
+        <Border Name="DropBorder"
+                BorderBrush="black"
+                BorderThickness="200"
+                MinHeight="10"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                IsVisible="True">
+        </Border>
+
+        <Border Name="ClickBorder"
+                BorderBrush="black"
+                BorderThickness="175"
+                MinHeight="10"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                IsVisible="false">
+        </Border>
+
+        <Slider Name="SizeSlider"
+                Minimum="0"
+                Maximum="1"
+                Value="0"
+                Width="600"
+                HorizontalAlignment="Center"
+                Margin="0,0,0,0"
+                IsVisible="False"
+                ValueChanged="SizeSlider_ValueChanged"/>
+
+        <TextBox Name="FilePathTextBox"
+                 Margin="0,10,0,0"
+                 IsReadOnly="True"
+                 Width="900"
+                 HorizontalContentAlignment="Center"/>
+    </StackPanel>
+</Window>
