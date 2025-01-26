@@ -65,3 +65,4 @@ N:\code\wRoM\wRoM\obj\Debug\net8.0\refint\Avalonia\wRoM.dll
 N:\code\wRoM\wRoM\obj\Debug\net8.0\wRoM.csproj.Up2Date
 N:\code\wRoM\wRoM\obj\Debug\net8.0\wRoM.genruntimeconfig.cache
 N:\code\wRoM\wRoM\obj\Debug\net8.0\ref\wRoM.dll
+N:\code\wRoM\wRoM\obj\Debug\net8.0\wRoM.sourcelink.json
