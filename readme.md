@@ -1,6 +1,8 @@
 # What Remains of Me
 
-Burdens weigh heavily on us all. In my tower, you are given the chance to reshape yourself, to let go of the weight you can no longer carry. wRoM exists to strip away the excess, to pare you down to only what is essential—reborn, lighter, smaller, but still holding the fragile echoes of what you once were.
+Burdens weigh heavily on us all. In my tower, you are given the chance to reshape yourself, to let go of the weight you can no longer carry. 
+wRoM exists to strip away the excess, to pare you down to only what is essential. 
+reborn. lighter. smaller. deeper. harder. still holding the fragile echoes of what you once were.
 
 ## Features
 
