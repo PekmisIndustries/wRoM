@@ -1,16 +1,11 @@
 using Avalonia.Interactivity;
-using System.Threading.Tasks;
-using Avalonia.Animation;
-using Avalonia.Rendering;
 using Avalonia.Threading;
+using System.Diagnostics;
 using Avalonia.Controls;
 using Avalonia.Input;
 using System.Linq;
 using System.IO;
-using Avalonia;
 using System;
-using System.Diagnostics;
-using Avalonia.Controls.Documents;
 
 namespace wRoM
 {
